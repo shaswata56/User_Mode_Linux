@@ -11,7 +11,7 @@ User-mode Linux (UML) is a port for Linux kernel itself by [Jeff Dike](https://w
 Beacuse it's really fun to do so as a Kernel Hacker. And I wrote these scripts, which are really easy to use for any linux user.
 
 ## What can be done with it?
-Numerous things become possible through the use of UML. One can run network services from a UML environment and remain totally sequestered from the main Linux system in which the UML environment runs. Administrators can use UML to set up honeypots[8], which allow one to test the security of one's computers or network. UML can serve to test and debug new software without adversely affecting the host system. UML can also be used for teaching and research, providing a realistic Linux networked environment with a high degree of safety.
+Numerous things become possible through the use of UML. One can run network services from a UML environment and remain totally sequestered from the main Linux system in which the UML environment runs. Administrators can use UML to set up honeypots, which allow one to test the security of one's computers or network. UML can serve to test and debug new software without adversely affecting the host system. UML can also be used for teaching and research, providing a realistic Linux networked environment with a high degree of safety.
 
 In UML environments, host and guest kernel versions don't need to match, so it is entirely possible to test a "bleeding edge" version of Linux in User-mode on a system running a much older kernel. UML also allows kernel debugging to be performed on one machine, where other kernel debugging tools (such as kgdb) require two machines connected with a null modem cable.
 
